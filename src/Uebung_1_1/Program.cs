@@ -8,10 +8,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        for (int i = 0; i < 10; i++)
+        int[] arr = { 4, 7, 3, 6, 8, 2 };
+        int pos = FindMax(arr);
+        Console.WriteLine($"Maximum {arr[pos]} auf index {pos}");
+    }
+
+    static int FindMax(int[] arr)
+    {
+        int maxPos = 0;
+        for (int i = 0; i < 6; i++)
         {
-            Console.WriteLine(i);
+            if (arr[i] > arr[maxPos])
+            {
+                maxPos = i;
+            }
         }
+        return maxPos;
     }
 }
