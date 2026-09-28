@@ -4,6 +4,7 @@
     <Project Path="src/Uebung_1_2/Uebung_1_2.csproj" />
     <Project Path="src/Uebung_1_3/Uebung_1_3.csproj" />
     <Project Path="src/Uebung_1_4/Uebung_1_4.csproj" />
+    <Project Path="src/Uebung_1_5/Uebung_1_5.csproj" />
   </Folder>
   <Project Path="src/HelloWorld/HelloWorld.csproj" />
 </Solution>
